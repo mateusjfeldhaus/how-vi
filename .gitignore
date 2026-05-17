@@ -1,19 +1,14 @@
-# ============================================================
-# uc-preciso : .gitignore raiz (cobre backend e frontend)
-# ============================================================
 
-# Dependências (npm/yarn/pnpm)
 node_modules/
 **/node_modules/
 .pnp
 .pnp.js
 
-# Variáveis de ambiente (NUNCA versionar credenciais)
+
 .env
 .env.*
 !.env.example
 
-# Builds
 dist/
 dist-ssr/
 build/
@@ -21,7 +16,6 @@ build/
 .next/
 out/
 
-# Logs
 logs
 *.log
 npm-debug.log*
@@ -30,16 +24,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Cache
 .cache/
 .parcel-cache/
 .eslintcache
 
-# Testes / cobertura
 coverage/
 .nyc_output/
 
-# Editores / IDEs
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
@@ -50,12 +41,10 @@ coverage/
 *.sln
 *.sw?
 
-# Sistema operacional
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Arquivos locais temporários
 *.local
 *.tmp
 *.bak
