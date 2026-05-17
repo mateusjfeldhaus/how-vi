@@ -1,0 +1,31 @@
+.header {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--color-text);
+}
+
+.brand:hover { text-decoration: none; }
+
+.logo { font-size: 22px; }
+
+.nav a {
+  font-size: 14px;
+  color: var(--color-text-soft);
+}

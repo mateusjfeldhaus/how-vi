@@ -1,0 +1,111 @@
+.voltar {
+  display: inline-block;
+  margin-bottom: 14px;
+  font-size: 13px;
+  color: var(--color-text-soft);
+}
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  max-width: 640px;
+}
+
+.titulo {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.subtitulo {
+  margin: 0 0 18px;
+  font-size: 13px;
+  color: var(--color-text-soft);
+  line-height: 1.6;
+}
+
+.label {
+  display: block;
+  font-size: 13px;
+  color: var(--color-text-soft);
+  margin-bottom: 14px;
+}
+
+.input, .textarea {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  padding: 9px 11px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--color-text);
+  background: var(--color-surface);
+}
+
+.input:focus, .textarea:focus {
+  outline: none;
+  border-color: var(--color-info-border);
+  box-shadow: 0 0 0 3px rgba(55, 138, 221, 0.15);
+}
+
+.input:disabled {
+  background: #f0eee8;
+  color: var(--color-text-soft);
+}
+
+.textarea { resize: vertical; min-height: 120px; }
+
+.aviso {
+  background: var(--color-info-bg);
+  color: var(--color-info-text);
+  font-size: 12px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.erro {
+  color: #993c1d;
+  font-size: 13px;
+  margin: 0 0 12px;
+}
+
+.acoes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.btnSecundario, .btnPrimario {
+  font-size: 13px;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text);
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.btnPrimario {
+  background: var(--color-info-bg);
+  color: var(--color-info-text);
+  border-color: var(--color-info-border);
+  font-weight: 500;
+}
+
+.btnPrimario:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btnSecundario:hover, .btnPrimario:hover {
+  filter: brightness(0.97);
+  text-decoration: none;
+}
